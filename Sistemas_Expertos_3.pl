@@ -1,0 +1,12 @@
+parte_de(vasos_sanguineos,sistema_cardiovascular).
+parte_de(corazon,sistema_cardiovascular).
+subclase_de(arteria,vasos_sanguineos).
+subclase_de(arteria_grande,arteria).
+subclase_de(arteria_pequeña,arteria).
+instancia_de(aorta,arteria_grande).
+instancia_de(arteria_branquial_izquierda,arteria_grande).
+instancia_de(arteria_pulmonar_izquierda,arteria_grande).
+existe(arteria,100).
+pared(arteria,muscular).
+sangre(arteria,rica_oxigeno).
+sangre(arteria_pulmonar_izquierda,pobre_oxigeno).
